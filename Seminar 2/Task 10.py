@@ -21,3 +21,11 @@ if side_1_count < side_0_count:
     print(f'Количество монет, которые нужно перевернуть: {side_1_count}')
 else:
     print(f'Количество монет, которые нужно перевернуть: {side_0_count}')
+    
+# Второй способ
+
+import random
+
+coins = [random.randint(0, 1) for _ in range(9)]
+print(coins)
+print('Перевернуть единички' if coins.count(1) < coins.count(0) else 'Перевернуть нолики')
