@@ -4,8 +4,8 @@
 # A = 3; B = 5 -> 243 (3⁵)
 # A = 2; B = 3 -> 8
 
-number = int(input('Введитее число: '))
-degree = int(input('Введитее степень: '))
+number = int(input('Введите число: '))
+degree = int(input('Введите степень: '))
 
 def function(number, degree):
     if degree == 0:
